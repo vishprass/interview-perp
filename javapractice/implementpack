@@ -1,0 +1,9 @@
+import stack.*;
+class implementpack{
+	public static void main(String args[]){
+		Stack stk = new Stack();
+		stk.push(10);
+		stk.display();
+		stk.pop();
+	}
+}

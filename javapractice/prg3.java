@@ -1,3 +1,4 @@
+package stack;
 import java.util.Scanner;
 class Stack{
 	
@@ -6,7 +7,7 @@ class Stack{
 	private int top;
 	
 	//Constructor	
-	Stack(){
+	public Stack(){
 		top = -1;
 	}
 	
