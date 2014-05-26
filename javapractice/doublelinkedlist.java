@@ -62,11 +62,13 @@ public class doublelinkedlist<Item> implements Iterable<Item>{
 		}
 	}
 	public static void main(String args[]){
-		doublelinkedlist<Integer> q = new doublelinkedlist<Integer>();
-		q.enqueue(10);
-		q.enqueue(20);
-		q.enqueue(30);
-		q.enqueue(40);
+		doublelinkedlist<Character> q = new doublelinkedlist<Character>();
+		q.enqueue('A');
+		q.enqueue('X');
+		q.enqueue('B');
+		q.enqueue('Y');
+		q.enqueue('C');
+		q.enqueue('Z');
 		q.display();
 	}
 }

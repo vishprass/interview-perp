@@ -99,7 +99,7 @@ class singlelinkedlist<Item>{
 		}
 		System.out.println(delitem + " deleted");
 	}
-	public void display(){
+
 		Link Current = new Link();
 		Current = first;
 		int count=0;

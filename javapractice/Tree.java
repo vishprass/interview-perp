@@ -89,7 +89,8 @@ class Treeoperations{
 				if(temproot.item.compareTo(a) == 0){System.out.println("found at left of parent");return;}
                         }
 		}
-	}	
+	}
+		
 }
 public class Tree{
 	public static void main(String args[]){
