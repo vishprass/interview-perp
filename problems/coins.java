@@ -7,7 +7,7 @@ class coins{
 			amt[i] =0;
 		for(int i=0;i<coinsdeno.length;i++)
 			if(coinsdeno[i]<=amount)
-			amt[coinsdeno[i]] = coinsdeno[i];
+			amt[coinsdeno[i]] = 1;
 		int prev = -1;
 		for(int i=1;i<=amount;i++){
 			int min=0;
